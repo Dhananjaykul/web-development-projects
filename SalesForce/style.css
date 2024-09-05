@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 13%;
+    width: 100%;  
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    /* This is a single line alternative for margin which i have comented out */
+    justify-content: space-around;
+}
+
+#logo{
+    height: 70%;
+    /* margin: 25px; */
+}
+
+#logo img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.texts{
+    margin: 20px;
+    color: rgb(5, 5, 121);
+    display: flex;
+    font-weight: bold;
+}
+
+.texts:hover{
+    color: rgb(12, 177, 232);
+}
+
+.contactDetails{
+    margin-left: 40px;
+    font-weight:lighter;
+}
+
+.icon{
+    /* margin-left: 20px; */
+    
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+#login{
+    display: flex;
+    /* margin-left: 20px; */
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#try{
+    /* margin-left: 30px; */
+    background-color: rgb(67, 123, 67);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;    
+}
+
+#try:hover{
+    background-color: #011409;
+}
+#fakeHeader{
+    height: 13%;
+    width: 100%;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(4, 4, 61);
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#strip u{
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    /* background-color: grey; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+
+#box1{
+    height: 90%;
+    width: 47%;
+    background-color: white;
+}
+
+
+
+#box2{
+    height: 90%;
+    width: 47%;
+    background-color: wheat;
+}
+
+
+#heading{
+    width: 100%;
+    height: 16%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#heading h1{
+    font-weight: 600;
+}
+
+#box1 h1{
+    font-weight: 600;
+    color: #011409;
+    font-size: 50px;
+    margin: 30px 10px;
+}
+
+#box1 p{
+    font-size: x-large;
+    margin: 10px;
+    margin: 30px 10px;
+    font-weight: lighter;
+}
+
+#btns{
+    display: flex; 
+}
+#btn1{
+    background-color: rgb(101, 207, 242);
+    color: white;
+    padding: 10px 20px;
+    width: 23%;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#btn1:hover{
+    background-color: rgb(12, 66, 84);
+}
+
+#btn2{
+    padding: 10px 20px;
+    margin: 10px;
+    width: 23%;
+    background-color: white;
+    color: rgb(101, 207, 242);
+    border: 1px solid rgb(101, 207, 242); 
+    text-align: center;
+    border-radius: 5px;
+}
+
+#btn2:hover{
+    background-color: lightblue;
+    color: rgb(41, 93, 111);
+    border-color:rgb(41, 93, 111);
+}
+
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color: salmon;
+}
+
